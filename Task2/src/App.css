@@ -1,0 +1,78 @@
+body {
+  background-image: linear-gradient(to right, #23bddb, white);
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  height: 20vh;
+  width: 100%;
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+nav h2 {
+  font-size: 40px;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+  color: white;
+  text-align: center;
+}
+
+nav button {
+  color: #fff;
+  width: 20%;
+  height: 10vh;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  background-color: #23cc61;
+  font-family: serif;
+  font-size: 20px;
+  margin: auto 0px;
+}
+
+nav button:hover {
+  opacity: 80%;
+}
+
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-image: black;
+}
+
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.name:hover {
+  color: #fee3ec;
+}
+
+.email:hover {
+  color: #fee3ec;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.profile {
+  border-radius: 10%;
+  background-image: linear-gradient(to right, yellow, orange);
+  margin: 5px;
+  padding: 10px;
+  width: 40%;
+  text-align: center;
+  opacity: 0.8;
+  margin-top: 4vh;
+  margin-bottom: 8vh;
+}
+
+.profile:hover {
+  background-image: linear-gradient(to right, #0fbf61, #098f47);
+}
